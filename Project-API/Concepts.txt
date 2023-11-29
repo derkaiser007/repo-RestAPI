@@ -1,0 +1,16 @@
+cd Desktop
+mkdir Project-API
+cd Project-API
+python -m venv venv
+venv\Scripts\activate
+code .
+
+requirements.txt
+pip install -r requirements.txt
+pip list --local OR pip freeze --local
+
+python py_client/basic.py
+
+pwd
+cls 
+ls
